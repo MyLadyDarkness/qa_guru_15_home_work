@@ -12,5 +12,5 @@ def test_signin_desktop(browser_size):
 
 @pytest.mark.parametrize("browser_size", ['mobile'], indirect=True)
 def test_signin_mobile(browser_size):
-        page.open_start_page()
-        signin.click_mobile()
+    page.open_start_page()
+    signin.click_mobile()
